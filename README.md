@@ -35,4 +35,3 @@ This project is a simple React.js application that displays a card component usi
 ## License
 
 This project is licensed under the MIT License.
-```
