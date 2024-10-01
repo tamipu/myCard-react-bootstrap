@@ -1,0 +1,27 @@
+.card {
+    width: 20rem;
+    margin: 3rem;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(58, 58, 58, 0.1);
+    text-align: center;
+}
+
+.card .card-image {
+    border-radius: 50%;
+    padding: 20px;
+    max-width: 85%;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #888888;
+}
