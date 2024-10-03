@@ -1,10 +1,9 @@
-import Carte from "./Carte.jsx";
+import CardComponent from "./CardComponent.jsx";
 
 function App() {
   return (
     <>
-        <Carte />
-        <Carte />
+        <CardComponent />
     </>
   )
 }
