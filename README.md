@@ -7,6 +7,11 @@ This project is a simple React.js application that displays a card component usi
 - React.js for the frontend
 - Bootstrap 4 for styling
 - A customizable card component with an image, title, text, and a button
+- A fun feature that displays a random developer fact when the "Show More" button is clicked.
+- State Management: The card uses the `useState` hook to manage the state of the name, bio, and random facts.
+- Side Effects: The `useEffect` hook is used to simulate fetching information and displaying random facts when the component loads or updates.
+
+
 
 ## Installation
 
