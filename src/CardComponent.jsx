@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaLinkedin, FaGithub, FaGlobe } from 'react-icons/fa';
 
 const developerFacts = [
     "Code is like humor. When you have to explain it, it’s bad.",
@@ -65,6 +66,21 @@ const CardComponent = () => {
                         <p><strong>Developer Fact:</strong> {fact}</p>
                     </div>
                 )}
+
+                {/* Links Section */}
+                <div className="mt-3">
+                    <h6>Connect with me:</h6>
+                    <a href="https://www.linkedin.com/in/phuong-ta-6989b0190/" target="_blank" rel="noopener noreferrer" className="me-3">
+                        <FaLinkedin size={24} />
+                    </a>
+                    <a href="https://github.com/tamipu" target="_blank" rel="noopener noreferrer" className="me-3">
+                        <FaGithub size={24} />
+                    </a>
+                    <a href="https://miaphuong.vercel.app" target="_blank" rel="noopener noreferrer">
+                        <FaGlobe size={24} />
+                    </a>
+                    <p className="mt-2">Email: <a href="mailto:ttmpwork@gmail.com">ttmpwork@gmail.com</a></p>
+                </div>
             </div>
         </div>
     );
